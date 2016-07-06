@@ -14,5 +14,10 @@
         "mikehenrty/thin-pdo-wrapper": "^1.0",
         "indieteq/indieteq-php-my-sql-pdo-database-class": "^1.0",
         "dannyvankooten/php-router": "^1.1@alpha"
+    },
+    "autoload": {
+    "psr-4": {
+      "CMS\\": "src/"
     }
+  }
 }
