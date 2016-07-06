@@ -1,0 +1,199 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "87cfe598a56de61713d79b5fc17a0a8a",
+    "content-hash": "71c6ca65e9717efe83586540bad933de",
+    "packages": [
+        {
+            "name": "dannyvankooten/php-router",
+            "version": "1.1.0-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dannyvankooten/PHP-Router.git",
+                "reference": "0d68402ee140ac6d0ed9b1caa8879d46f6fb260f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dannyvankooten/PHP-Router/zipball/0d68402ee140ac6d0ed9b1caa8879d46f6fb260f",
+                "reference": "0d68402ee140ac6d0ed9b1caa8879d46f6fb260f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "@dev"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "~1.5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPRouter\\": "src/PHPRouter/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Danny van Kooten",
+                    "email": "dannyvankooten@gmail.com",
+                    "homepage": "http://dannyvankooten.com/"
+                },
+                {
+                    "name": "Jefersson Nathan",
+                    "email": "malukenho@phpse.net"
+                }
+            ],
+            "description": "Simple PHP Router, supports REST and reverse routing.",
+            "homepage": "https://github.com/dannyvankooten/PHP-Router",
+            "keywords": [
+                "php",
+                "rest",
+                "router",
+                "routing"
+            ],
+            "time": "2015-01-31 10:44:28"
+        },
+        {
+            "name": "indieteq/indieteq-php-my-sql-pdo-database-class",
+            "version": "v1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/indieteq/indieteq-php-my-sql-pdo-database-class.git",
+                "reference": "eeef1ae69098a728f5cf37033a0c2ee833cb6a3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/indieteq/indieteq-php-my-sql-pdo-database-class/zipball/eeef1ae69098a728f5cf37033a0c2ee833cb6a3f",
+                "reference": "eeef1ae69098a728f5cf37033a0c2ee833cb6a3f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-12-15 14:53:56"
+        },
+        {
+            "name": "mikehenrty/thin-pdo-wrapper",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikehenrty/thin-pdo-wrapper.git",
+                "reference": "0099a9bcb281e40dde61e029721aed09a9bc7af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikehenrty/thin-pdo-wrapper/zipball/0099a9bcb281e40dde61e029721aed09a9bc7af6",
+                "reference": "0099a9bcb281e40dde61e029721aed09a9bc7af6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Henretty",
+                    "email": "michael.henretty@gmail.com",
+                    "homepage": "http://github.com/mikehenrty",
+                    "role": "developer"
+                },
+                {
+                    "name": "eman1986",
+                    "homepage": "http://github.com/eman1986",
+                    "role": "developer"
+                }
+            ],
+            "description": "A simple database abstraction for using PDO with MySQL, Postgres, and SQLite.",
+            "homepage": "https://github.com/mikehenrty/thin-pdo-wrapper",
+            "keywords": [
+                "database",
+                "db",
+                "mysql",
+                "pdo",
+                "postgres",
+                "sqlite",
+                "thin",
+                "wrapper"
+            ],
+            "time": "2013-04-27 08:01:35"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "b69648974b39cc6f76aea9d3aee8212cd0c0d75d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/b69648974b39cc6f76aea9d3aee8212cd0c0d75d",
+                "reference": "b69648974b39cc6f76aea9d3aee8212cd0c0d75d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-01 16:08:10"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "dannyvankooten/php-router": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
