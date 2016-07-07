@@ -6,14 +6,21 @@ $xssProtect = new XssProtect();
 $post = array($xssProtect->main($_POST));
 $get = array($xssProtect->main($_GET));
 
-$values = array();
-$values['post'] = $post;
-$values['get'] = $get;
+$variables = array();
+$variables['post'] = $post;
+$variables['get'] = $get;
 
-$app = new \Slim\App();
-$app->get("/", function(){
-    
-    print_r("Hello world");
-    
+$app = new \Silex\Application();
+$app->get("/logowanie.html", function(){
+    $userController = new CMS\Controllers\UserController;
+    $userController->signIn();
+});
+$app->get("/rejestracja-konta.html", function(){
+    $userController = new CMS\Controllers\UserController;
+    $userController->signUp();
+});
+$app->get("/przypomnienie-hasla.html", function(){
+    $userController = new CMS\Controllers\UserController;
+    $userController->forgot();
 });
 $app->run();
